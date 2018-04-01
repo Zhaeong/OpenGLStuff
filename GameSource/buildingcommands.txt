@@ -1,0 +1,1 @@
+g++ -Wall main.cpp -LD:\OpenGLStuff\glew-2.1.0\lib -lglew32 -ID:\OpenGLStuff\glew-2.1.0\include -o main.exe
