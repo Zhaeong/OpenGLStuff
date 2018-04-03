@@ -4,3 +4,5 @@ g++ -Wall main.cpp glad.c CommonFunctions.cpp -LD:\Github\OpenGLStuff\GameSource
 //Statically linking glfw
 
 g++ -Wall main.cpp glad.c CommonFunctions.cpp -LD:\Github\OpenGLStuff\GameSource\Library -ID:\Github\OpenGLStuff\GameSource\Include D:\Github\OpenGLStuff\GameSource\Library\glfw3.dll -o main.exe -lglfw3 -lopengl32 -lglu32 -lgdi32
+
+//don't really need lglu32
